@@ -1,0 +1,18 @@
+.grav-editor-button-emoji > a{
+	padding:0 !important;
+}
+.grav-editor-button-emoji .dropdown-menu li{
+width:12.5% !important;
+
+}
+
+.grav-editor-button-emoji .dropdown-menu{
+	min-width:360px !important;
+	max-height: 60vh;
+	overflow-y: scroll;
+	text-align: center !important;
+}
+
+.grav-editor-button-emojicategory{
+	background: #888;
+}
