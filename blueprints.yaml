@@ -1,0 +1,34 @@
+name: Emoji Picker
+version: 0.1
+description: Adds additional editor button options
+icon: smile-o
+author:
+  name: Jasper Oprel
+  email: jasper@oprel.work
+  url: https://oprel.work
+homepage: https://github.com/
+keywords: admin, plugin, editor, buttons
+bugs: https://github.com/
+license: MIT
+
+dependencies:
+  - { name: admin, version: '~1.1' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    buttons:
+      type: section
+      title: PLUGIN_EMOJI_PICKER.ENABLE_PICKER
+      underline: true
