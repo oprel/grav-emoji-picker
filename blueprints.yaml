@@ -1,14 +1,14 @@
 name: Emoji Picker
-version: 0.1
-description: Adds additional editor button options
+version: 0.2
+description: Insert emoji directly from the editor toolbar.
 icon: smile-o
 author:
   name: Jasper Oprel
   email: jasper@oprel.work
   url: https://oprel.work
-homepage: https://github.com/
+homepage: https://github.com/oprel/grav-emoji-picker
 keywords: admin, plugin, editor, buttons
-bugs: https://github.com/
+bugs: https://github.com/oprel/grav-emoji-picker/issues
 license: MIT
 
 dependencies:
@@ -27,8 +27,3 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
-
-    buttons:
-      type: section
-      title: PLUGIN_EMOJI_PICKER.ENABLE_PICKER
-      underline: true

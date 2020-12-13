@@ -12,6 +12,5 @@ $ bin/gpm install emoji-picker
 
 Or clone from GitHub and put in the `user/plugins/emoji-picker` folder.
 
-# Configuration
 
 
